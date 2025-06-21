@@ -47,7 +47,20 @@ const TableFooter = React.forwardRef<
       className
     )}
     {...props}
-  />
+  >
+    <tr>
+      <td
+        colSpan={100}
+        style={{
+          fontSize: "0.75rem",
+          textAlign: "center",
+          color: "#888",
+        }}
+      >
+        Developed by sahayogeshwaran
+      </td>
+    </tr>
+  </tfoot>
 ))
 TableFooter.displayName = "TableFooter"
 

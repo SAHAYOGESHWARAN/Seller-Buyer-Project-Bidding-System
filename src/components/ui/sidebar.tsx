@@ -373,7 +373,11 @@ const SidebarFooter = React.forwardRef<
       data-sidebar="footer"
       className={cn("flex flex-col gap-2 p-2", className)}
       {...props}
-    />
+    >
+      <div style={{ fontSize: '0.75rem', textAlign: 'center', marginTop: '0.5rem', color: '#888' }}>
+        Developed by sahayogeshwaran
+      </div>
+    </div>
   )
 })
 SidebarFooter.displayName = "SidebarFooter"
