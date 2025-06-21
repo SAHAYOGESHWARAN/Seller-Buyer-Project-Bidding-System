@@ -75,7 +75,11 @@ const DialogFooter = ({
       className
     )}
     {...props}
-  />
+  >
+    <div style={{ fontSize: '0.75rem', textAlign: 'center', marginTop: '0.5rem', color: '#888' }}>
+      Developed by sahayogeshwaran
+    </div>
+  </div>
 )
 DialogFooter.displayName = "DialogFooter"
 

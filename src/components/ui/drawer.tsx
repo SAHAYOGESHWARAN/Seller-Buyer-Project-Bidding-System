@@ -71,7 +71,11 @@ const DrawerFooter = ({
   <div
     className={cn("mt-auto flex flex-col gap-2 p-4", className)}
     {...props}
-  />
+  >
+    <div style={{ fontSize: '0.75rem', textAlign: 'center', marginTop: '0.5rem', color: '#888' }}>
+      Developed by sahayogeshwaran
+    </div>
+  </div>
 )
 DrawerFooter.displayName = "DrawerFooter"
 
